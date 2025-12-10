@@ -7,6 +7,109 @@
     <title>Document</title>
 </head>
 <body>
+    <style>
+        .sec{
+    padding: 10px 5%;
+}
+
+
+
+.products .card{
+    width: 250px;
+    background: #E7CDC8;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.products .card img{
+    height: 243px;
+    width: 250px;
+    
+}
+
+.desc{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+
+}
+
+.price{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+
+}
+.title{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+}
+.box{
+    text-align: center;
+}
+
+.products.products{
+    float: left;
+    margin: 0 50px;
+
+
+}
+ 
+
+/* === TABLET (max 900px) === */
+@media (max-width: 900px) {
+    .cardholder {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .navbar ul li {
+        margin-left: 20px;
+    }
+
+    .logo h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+/* === MOBILNI (max 680px) === */
+@media (max-width: 680px) {
+
+    .cardholder {
+        grid-template-columns: 1fr;
+        padding: 10px;
+        
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+      
+    }
+
+    .menu ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .menu ul li {
+        margin: 10px 0;
+    }
+
+    .logo h2 {
+        font-size: 24px;
+        text-align: center;
+        width: 100%;
+    }
+}
+    </style>
 <div class="main">
         <div class="navbar">
             <div class="logo">
